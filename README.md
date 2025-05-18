@@ -2,7 +2,7 @@
 
 This project demonstrates the use of **Regular Expressions (Regex)** in Python to extract structured data from unstructured text. It includes two components:
 
-1. **`orgapp_data.py`** – Extracts multiple data types from a file (`orgapp.txt`).
+1. **`orgapp_data.py`** – Extracts multiple data types from a file ,for example: (`org.txt`).
 2. **`orginput_validator.py`** – Allows users to input data manually and validates it using regex.
 
 ---
