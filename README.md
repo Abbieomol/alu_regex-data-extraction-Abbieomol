@@ -1,37 +1,65 @@
 # alu_regex-data-extraction_Abbieomol
+# 🔍 Regex Data Extraction Project
 
-This project demonstrates how to extract structured data from unstructured text using Python and Regular Expressions (Regex). It was developed as part of a short-term web application development gig.
+This project demonstrates the use of **Regular Expressions (Regex)** in Python to extract structured data from unstructured text. It includes two components:
 
-## 🔍 What the Project Does
+1. **`extract_data.py`** – Extracts multiple data types from a file (`orgapp.txt`).
+2. **`interactive_validator.py`** – Allows users to input data manually and validates it using regex.
 
-The script reads text data from a file (`orgapp.txt`) and uses regular expressions to search and extract:
+---
 
-- ✅ Email addresses  
-- ✅ URLs  
-- ✅ Phone numbers  
-- ✅ Credit card numbers for the sponsors
-- ✅ Currency values  
-- ✅ Hashtags  
-- ✅ Time formats (12-hour and 24-hour)  
-- ✅ HTML tags  
+## 📁 Project Files
 
-If a pattern is not found, the script prints `"Not found"` under that data type.
+### 1. `extract_data.py`
+- Reads text from `orgapp.txt`
+- Extracts and prints:
+  - Email addresses
+  - URLs
+  - Phone numbers
+  - Credit card numbers
+  - Hashtags
+  - Currency amounts
+  - Time (12-hour and 24-hour format)
+  - HTML tags
+- Prints **"Not found"** if a data type is missing from the file
 
-## 🛠 Technologies Used
+### 2. `orgapp.txt`
+Contains a sample block of text with multiple data types for extraction.
 
-- **Python 3**
-- **Regex (`re` module)**
+### 3. `interactive_validator.py`
+- Prompts users to enter input for each field.
+- Validates input with regex.
+- Displays `✅ Found: <input>` if valid.
+- Displays `❌ Invalid. Please try again.` if not.
 
-## 📂 Files in This Repository
+---
 
-- `extract_data.py`: The main Python script that performs the regex extraction.
-- `orgapp.txt`: A sample text file containing strings to extract data from.
-- `README.md`: This file — explains the project.
+## 🧪 How to Run
 
-## ▶️ How to Run the Project
+Make sure you have Python installed.
 
-1. Make sure Python is installed.
-2. Clone this repo:
-   ```bash
-   git clone https://github.com/Abbieomol/alu_regex-data-extraction-Abbieomol.git
+### To run the data extractor:
+```bash
+python extract_data.py
+```
+
+### To run the interactive validator:
+```bash
+python interactive_validator.py
+```
+
+---
+
+## ✅ Data Types and Examples
+| Data Type     | Example                                 |
+|---------------|------------------------------------------|
+| Email         | leila.kimani@greenmail.com              |
+| URL           | https://www.example.com                 |
+| Phone Number  | (254) 711-234567                        |
+| Credit Card   | 1234-5678-9012-3456                     |
+| Hashtag       | #GreenInnovation                        |
+| Currency      | $1,234.56                               |
+| Time          | 14:30 or 2:30 PM                        |
+| HTML Tag      | <div class="container">               |
+
 
