@@ -1,10 +1,9 @@
-# alu_regex-data-extraction_Abbieomol
 # 🔍 Regex Data Extraction Project
 
 This project demonstrates the use of **Regular Expressions (Regex)** in Python to extract structured data from unstructured text. It includes two components:
 
-1. **`extract_data.py`** – Extracts multiple data types from a file (`orgapp.txt`).
-2. **`interactive_validator.py`** – Allows users to input data manually and validates it using regex.
+1. **`orgapp_data.py`** – Extracts multiple data types from a file (`orgapp.txt`).
+2. **`orginput_validator.py`** – Allows users to input data manually and validates it using regex.
 
 ---
 
@@ -21,7 +20,6 @@ This project demonstrates the use of **Regular Expressions (Regex)** in Python t
   - Currency amounts
   - Time (12-hour and 24-hour format)
   - HTML tags
-- Prints **"Not found"** if a data type is missing from the file
 
 ### 2. `orgapp.txt`
 Contains a sample block of text with multiple data types for extraction.
@@ -62,4 +60,14 @@ python interactive_validator.py
 | Time          | 14:30 or 2:30 PM                        |
 | HTML Tag      | <div class="container">               |
 
+---
+
+## 📌 Author
+**Leila** – Junior Full Stack Developer and Python Enthusiast 💻🌍
+
+---
+
+## 🔗 GitHub Repository
+Make sure your repo is named like this:  
+**`alu_regex-data-extraction-{yourUsername}`**
 
